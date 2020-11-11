@@ -29,5 +29,5 @@ def find_valid_calls(planeteer_calls)
   valid_calls.find do |i|
     i == planeteer_calls[index]
   end
-  
+
 end
