@@ -28,5 +28,3 @@ def find_valid_calls(planeteer_calls)
      valid_calls == "Earth!" || valid_calls == "Wind!" || valid_calls == "Fire!" || valid_calls == "Water!" || valid_calls == "Heart!"
    end
   end
-
-
