@@ -24,10 +24,9 @@ end
 
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-  %w["Earth!", "Wind!", "Fire!", "Water!", "Heart!"].first 
-  index = 0
-  valid_calls.find do |i|
-    i == planeteer_calls[index]
+  planeteer_calls.find do |valid_calls|
+     valid_calls == "Earth!" || valid_calls == "Wind!" || valid_calls == "Fire!" || valid_calls == "Water!" || valid_calls == "Heart!"
+   end
   end
 
 end
